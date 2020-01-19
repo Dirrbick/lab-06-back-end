@@ -62,6 +62,7 @@ function Location(city, geoData){
 }
 
 function errorHandler(error, request, response) {
+
   response.status(500).send(error);
 }
 
